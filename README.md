@@ -37,7 +37,7 @@ grunt-init xyGrunt
 
 其中`lib`是库资源的地方，`build`目录需要进行编译后才出现
 
-安装：
+###安装：
 
 ```
 npm install
@@ -45,7 +45,7 @@ npm install
 
 将需要的模块先进行安装
 
-任务：
+###任务：
 
 1. `grunt`
 进行less源文件的编译。
