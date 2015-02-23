@@ -18,7 +18,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('name'),
     //一个用户可读的项目名称，默认是修改过的让更多人可读的实际项目名称。
     init.prompt('title'),
-    init.prompt('description', '一个简单的html+jqeury的项目'),
+    init.prompt('description', '基于grunt自动化以及less的项目'),
     init.prompt('version'),
     init.prompt('repository'),
     init.prompt('author_name'),
