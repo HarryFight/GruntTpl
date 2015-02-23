@@ -1,5 +1,5 @@
 //当用户运行grunt init或者grunt-init来显示所有的有效初始化模板时，这个简短的模板描述也会和模板名一起显示。
-exports.description = '初始化一个简单的html+jqeury的项目';
+exports.description = '基于grunt自动化以及less的项目';
 
 // 如果指定了这个选项，这个可选的扩展描述将会在任何提示信息显示之前显示出来。这是一个给用户提供一些解释命名空间相关帮助信息的很好的地方。
 exports.notes = '请配置下面的参数，初始化项目'; 
@@ -18,7 +18,7 @@ exports.template = function(grunt, init, done) {
     init.prompt('name'),
     //一个用户可读的项目名称，默认是修改过的让更多人可读的实际项目名称。
     init.prompt('title'),
-    init.prompt('description', '基于grunt自动化以及less的项目'),
+    init.prompt('description', '这是一个基于grunt自动化以及less的项目'),
     init.prompt('version'),
     init.prompt('repository'),
     init.prompt('author_name'),
